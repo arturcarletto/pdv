@@ -1,0 +1,92 @@
+.title {
+    color: #7e8b94;
+    padding: 10px;
+}
+
+.novoItem {
+    margin-top: 30px;
+    padding: 10px 20px;
+    width: 750px;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow:  32px 32px 64px #bebebe,
+    -32px -32px 64px #ffffff;
+}
+
+
+
+.novoItem label {
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    color: #abafb2;
+    background-color: #e8ecef;
+    border-radius: 7px 0 0 7px;
+    border: 1px solid #d1d2d4;
+}
+
+.novoItem select {
+    height: 39px;
+    padding: .5em;
+    background: none;
+    width: 600px;
+    border: 1px solid #d1d2d4;
+    border-radius: 0 7px 7px 0;
+}
+
+.novoItem input {
+    border: 1px solid #d1d2d4;
+    height: 40px;
+    padding: .5em;
+    background: none;
+    border-radius: 0 7px 7px 0;
+    margin-right: 10px;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+
+.form_inline {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.quantidade{
+    width: 110px;
+}
+.valor{
+    width: 150px;
+}
+.total{
+    width: 150px;
+}
+
+.form_inline label {
+    width: auto;
+}
+
+
+.btn_inserir {
+    background-color: #0057d8;
+    border-radius: 7px;
+    color: white;
+    width: 690px;
+    border: 1px solid #81aef2;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn_inserir:hover {
+    background-color: #0041a8;
+    border: 1px solid #81aef2;
+}
+
+.btn_inserir:active {
+    background-color: #0041a8;
+    border: 1px solid #81aef2;
+}
