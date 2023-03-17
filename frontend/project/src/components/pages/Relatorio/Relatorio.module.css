@@ -1,0 +1,121 @@
+.title {
+    color: #7e8b94;
+    padding: 10px;
+}
+
+.relatorio {
+    position: absolute;
+    margin-top: 30px;
+    font-size: large;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: inset -5px 5px 12px #a1a1a1,
+    inset 5px -5px 12px #ffffff;
+    width: 40%;
+}
+.relatorio table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+.relatorio td,
+th {
+    padding: 8px;
+    font-weight: normal;
+}
+
+
+.relatorio th {
+    width: 100px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.relatorio tr:hover,
+.relatorio tr:nth-child(even):hover{
+    background-color: rgba(0, 32, 255, 0.6);
+    color: white
+}
+
+.relatorio tr:nth-child(even) {
+    background-color: rgba(204, 204, 204, 0.58);
+}
+
+.visualizar {
+    width: 30px;
+}
+
+.visualizar button {
+    width: 20px;
+    background: none;
+    border: none;
+}
+
+.visualizar svg {
+    color: #0064ff;
+    font-size: 1.2em;
+}
+.visualizar svg:hover {
+    cursor: pointer;
+    color: white;
+}
+
+img {
+    top: 20%;
+    left: 65%;
+    position: absolute;
+    width: 25%;
+    height: 50%;
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+
+
+.scroll {
+    overflow-y: auto;
+    height: 600px;
+}
+
+.pdf {
+    bottom: 5%;
+    position: absolute;
+    left: 50%;
+}
+
+.pdf:hover {
+    cursor: pointer;
+
+}
+
+.pdf svg:hover {
+    cursor: pointer;
+    color: #0064ff;
+}
+
+.voltar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 15%;
+    height: 40px;
+    top: 10%;
+    left: 0;
+    position: relative;
+    background-color: rgba(70, 70, 70, 0.11);
+    border-radius: 10px;
+    border: 1px solid black;
+
+
+}
+.voltar svg {
+    font-size: 2em;
+    top: 2px;
+    left: 5px;
+}
+.voltar:hover {
+    cursor: pointer;
+    background-color: rgba(70, 70, 70, 0.3);
+}
+

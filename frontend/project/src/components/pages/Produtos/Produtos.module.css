@@ -1,0 +1,194 @@
+.left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-top: 150px;
+    padding: 10px;
+    left: 0;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    margin-top: 150px;
+    padding: 10px;
+    right: 0;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 250px;
+}
+
+.novoTipo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.novoProduto{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.apagar {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 5px 8px;
+    border: 1px solid #dc3545;
+    cursor: pointer;
+}
+
+.apagar:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.editar {
+    background-color: #fff;
+    color: #007bff;
+    padding: 5px 8px;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.editar:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.title {
+    color: #7e8b94;
+    padding: 10px;
+}
+
+
+.tabela table {
+    width: 100%;
+    color: #7e8b94;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+.tabela td,
+th {
+    padding: 8px;
+    font-weight: normal;
+    width: 120px;
+}
+.tabela th {
+    width: 100px;
+    padding-bottom: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.tabela tr:hover,
+.tabela tr:nth-child(even):hover {
+    background-color: rgba(0, 32, 255, 0.6);
+    color: white
+}
+
+.tabela tr:nth-child(even) {
+    background-color: rgba(204, 204, 204, 0.58);
+}
+
+
+.vl {
+    border-left: 1px solid #7e8b94;
+    height: 70%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    bottom: 5%;
+}
+
+.editForm {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow:  32px 32px 64px #bebebe,
+    -32px -32px 64px #ffffff;
+}
+.editForm form {
+    width: 80%;
+}
+
+.editForm label {
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    color: #abafb2;
+    background-color: #e8ecef;
+    border-radius: 7px 0 0 7px;
+    border: 1px solid #d1d2d4;
+}
+
+.editForm select {
+    height: 40px;
+    padding: .5em;
+    background: none;
+    width: 60%;
+    border: 1px solid #d1d2d4;
+    border-radius: 0 7px 7px 0;
+}
+
+.editForm input {
+    margin-right: 20px;
+    border: 1px solid #d1d2d4;
+    height: 40px;
+    padding: .5em;
+    background: none;
+    width: 50%;
+    border-radius: 0 7px 7px 0;
+}
+
+.editPencil {
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+.tabela {
+    margin: 30px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow:  32px 32px 64px #bebebe,
+    -32px -32px 64px #ffffff;
+}
+.tipos {
+    margin: 200px 0 50px 200px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow:  32px 32px 64px #bebebe,
+    -32px -32px 64px #ffffff;
+
+}
+.background {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    border-radius: 50px;
+box-shadow:  -5px 5px 12px #5a5a5a,
+5px -5px 12px #ffffff;
+    margin-top: 30px;
+}

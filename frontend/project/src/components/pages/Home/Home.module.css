@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+  font-family: 'Inter', sans-serif;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+.bg {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75) 50%);
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  bottom:0;
+  left:-50%;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+@keyframes slide {
+0% {
+  transform:translateX(-25%);
+  }
+
+100% {
+  transform:translateX(25%);
+  }
+}

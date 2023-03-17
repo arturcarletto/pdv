@@ -1,0 +1,29 @@
+
+.vl {
+    position: absolute;
+    border: 1px solid #7e8b94;
+    height: 80%;
+    margin: 10px;
+    left: 50%;
+}
+.left {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    left: 0;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    right: 0;
+}

@@ -1,0 +1,99 @@
+.title {
+    color: #7e8b94;
+    padding: 10px;
+}
+
+.carrinho {
+    margin-top: 30px;
+    padding: 10px;
+    position: absolute;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow:  32px 32px 64px #bebebe,
+    -32px -32px 64px #ffffff;
+}
+.carrinho table {
+    width: 100%;
+    color: #7e8b94;
+    border-collapse: collapse;
+    border-bottom: 1px solid black;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 400px;
+}
+
+.carrinho td,
+th {
+    padding: 8px;
+    font-weight: normal;
+}
+
+
+.carrinho th {
+    padding-bottom: 12px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+
+.carrinho tr:hover,
+.carrinho tr:nth-child(even):hover {
+    background-color: rgba(0, 32, 255, 0.6);
+    color: white;
+}
+
+.carrinho tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn_concluir {
+    position: absolute;
+    top: 120%;
+    padding: 10px;
+    background-color: #0057d8;
+    color: white;
+    border: 1px solid #81aef2;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+
+.btn_concluir:hover {
+    background-color: #0041a8;
+    border: 1px solid #81aef2;
+
+}
+
+.btn_concluir:active {
+    background-color: #0041a8;
+    border: 1px solid #81aef2;
+}
+
+.apagar {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 5px 8px;
+    border: 1px solid #dc3545;
+    cursor: pointer;
+}
+
+.apagar:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.imposto {
+    top: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.imposto h3 {
+    color: #7e8b94;
+}
+.imposto span {
+    margin-left: 300px;
+}
